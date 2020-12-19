@@ -1,0 +1,30 @@
+.container-fluid a img {
+    width: 50px;
+    height: auto;
+}
+.navbar-brand {
+    margin-right: 3em;
+}
+.navbar-collapse ul li{
+    margin-right: 2em;
+}
+.my-border{
+    width: 40%;
+    position: relative;
+    left: 0.6em;
+    bottom: 0.4em;
+}
+.active{
+    font-weight: 500;
+    position: relative;
+    z-index : 1;
+}
+.active:before{
+    content : "";
+    position: absolute;
+    left    : 9px;
+    bottom  : 0;
+    height  : 1px;
+    width   : 38%;  /* or 100px */
+    border-bottom:2px solid green;
+}

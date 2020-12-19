@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+}
+.card-title{
+    margin-bottom: 0;
+}
+.border{
+    position: relative;
+    right: 2em;
+    width: 117%;
+}
+.options-container ul{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 1em;
+}
+.badge{
+    font-size: 20px!important;
+    position: relative;
+    left: 8em;
+    bottom: 8px;
+}
+.rent-btn{
+    position: relative;
+    left: 8em;
+    padding-left: 2em;
+    padding-right: 2em;
+    bottom: 12px;
+}
